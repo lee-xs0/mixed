@@ -11,7 +11,9 @@
     "publish": "lerna publish",
     "build": "father-build"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@al-mixed/box": "workspace:*"
+  },
   "devDependencies": {
     "@commitlint/cli": "^17.3.0",
     "@commitlint/config-conventional": "^17.3.0",

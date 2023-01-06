@@ -6,6 +6,8 @@
   "main": "lib/index.js",
   "module": "es/index.js",
   "types": "lib/index.d.ts",
+  "dependencies": {
+    "@al-mixed/utils": "workspace:*"
+  },
   "license": "MIT"
-
 }

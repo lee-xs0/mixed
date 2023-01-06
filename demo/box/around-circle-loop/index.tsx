@@ -2,12 +2,12 @@
  * @Author: atwLee
  * @Date: 2022-12-29 19:41:41
  * @LastEditors: atwLee
- * @LastEditTime: 2022-12-29 23:04:10
+ * @LastEditTime: 2023-01-06 22:59:25
  * @Description: demo--box/绕圆轮播盒子
  * @FilePath: /al-mixed/demo/box/around-circle-loop/index.tsx
  */
 import React from 'react';
-import { AroundCircleWrapper, AroundCircleItem } from '../../../packages/box/src/index';
+import { AroundCircleWrapper, AroundCircleItem } from '@al-mixed/box';
 const Index = () => {
   let dataArr = [
     {
