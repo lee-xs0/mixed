@@ -1,0 +1,4 @@
+/node_modules
+/.dumi
+/dist
+/pnpm-lock.yaml

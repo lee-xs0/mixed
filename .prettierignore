@@ -1,0 +1,9 @@
+**/*.png
+**/*.svg
+package.json
+.gitignore
+.prettierignore
+.eslintignore
+.editorconfig
+dist
+docs-dist

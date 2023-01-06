@@ -1,0 +1,38 @@
+.alm-box-water-droplet {
+  width: var(--droplet-width);
+  height: var(--droplet-height);
+  margin: 100px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: inset var(--box-shadow-20) var(--box-shadow-20) var(--box-shadow-20)
+      var(--shadowColor),
+    var(--box-shadow-25) var(--box-shadow-35) var(--box-shadow-20) var(--shadowColor),
+    var(--box-shadow-25) var(--box-shadow-30) var(--box-shadow-30) var(--shadowColor),
+    inset calc(-1 * var(--box-shadow-20)) calc(-1 * var(--box-shadow-20)) var(--box-shadow-25)
+      rgba(255, 255, 255, 0.8);
+  --embellishmentL: 22.85%;
+  --embellishmentT: 14.28%;
+  --embellishmentBKC: #ffffff;
+  --shadowColor: rgba(0, 0, 0, 0.05);
+  --box-shadow-20: calc(var(--droplet-width) * 20 / 350);
+  --box-shadow-25: calc(var(--droplet-width) * 25 / 350);
+  --box-shadow-30: calc(var(--droplet-width) * 30 / 350);
+  --box-shadow-35: calc(var(--droplet-width) * 35 / 350);
+}
+.alm-box-water-droplet::before,
+::after {
+  content: '';
+  position: absolute;
+  left: var(--embellishmentL);
+  top: var(--embellishmentT);
+  width: var(--embellishmentWH);
+  height: var(--embellishmentWH);
+  background-color: var(--embellishmentBKC);
+  border-radius: 50%;
+  opacity: 0.9;
+}
+.alm-box-water-droplet::after {
+  width: calc(var(--embellishmentWH) / 2);
+  height: calc(var(--embellishmentWH) / 2);
+  transform: translate(200%, 200%);
+}

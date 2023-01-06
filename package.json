@@ -1,0 +1,73 @@
+{
+  "name": "al-mixed",
+  "version": "1.0.0",
+  "author": "ATW-Lee <1596064580@qq.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "dumi dev",
+    "prettier": "prettier -c --write **/*",
+    "commit": "cz",
+    "publish": "lerna publish",
+    "build": "father-build"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@commitlint/cli": "^17.3.0",
+    "@commitlint/config-conventional": "^17.3.0",
+    "@types/jest": "^29.2.4",
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.10",
+    "@typescript-eslint/eslint-plugin": "^5.47.1",
+    "@typescript-eslint/parser": "^5.47.1",
+    "babel-plugin-import": "^1.13.5",
+    "classnames": "^2.3.2",
+    "commitizen": "^4.2.6",
+    "cz-conventional-changelog": "^3.3.0",
+    "dumi": "^2.0.18",
+    "eslint": "^8.30.0",
+    "eslint-config-alloy": "^4.7.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-babel": "^5.3.1",
+    "eslint-plugin-jest": "^27.1.7",
+    "eslint-plugin-markdown": "^3.0.0",
+    "eslint-plugin-react": "^7.31.11",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "father-build": "^1.22.5",
+    "jest": "^29.3.1",
+    "lerna": "^6.3.0",
+    "less": "^3.13.1",
+    "lint-staged": "^13.1.0",
+    "prettier": "^2.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^4.9.4",
+    "typescript-eslint": "^0.0.1-alpha.0"
+  },
+  "peerDependencies": {
+    "react": ">=17.0.0",
+    "react-dom": ">=17.0.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "browserslist": [
+    "> 0.5%",
+    "last 2 versions",
+    "Firefox ESR",
+    "not dead",
+    "ie >= 11"
+  ],
+  "gitHooks": {
+    "pre-commit": "lint-staged",
+    "commit-msg": "commitlint -E GIT_PARAMS"
+  },
+  "lint-staged": {
+    "*.{js,jsx,tsx,ts,less,md,json}": [
+      "prettier --write"
+    ],
+    "*.ts?(x)": [
+      "prettier --parser=typescript --write"
+    ]
+  }
+}

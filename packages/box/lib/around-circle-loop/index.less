@@ -1,0 +1,133 @@
+// 0
+@dimensionItem0Transform: translate(0, 0) scale(1);
+// 1&l1
+@dimensionItem1-l1scale: scale(0.88);
+@dimensionItem1TranslateXY: translate(110%, -16%);
+@dimensionItemL1TranslateXY: translate(-110%, -16%);
+// 2&l2
+@dimensionItem2-l2scale: scale(0.76);
+@dimensionItem2TranslateXY: translate(140%, -110%);
+@dimensionItemL2TranslateXY: translate(-140%, -110%);
+// 3&l3
+@dimensionItem3-l3scale: scale(0.64);
+@dimensionItem3TranslateXY: translate(110%, -190%);
+@dimensionItemL3TranslateXY: translate(-110%, -190%);
+// 4&l4
+@dimensionItem4TranslateXY: translate(80%, -230%) scale(0);
+@dimensionItemL4TranslateXY: translate(-80%, -230%) scale(0);
+
+.alm-box-dimensionLayer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  .alm-box-dimensionWrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    contain: strict;
+    .alm-box-dimensionItem {
+      position: absolute;
+      bottom: 0;
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      cursor: default;
+    }
+    .alm-box-dimensionItem0 {
+      animation: myAnimation15-0 2s linear forwards;
+      @keyframes myAnimation15-0 {
+        from {
+          transform: @dimensionItemL1TranslateXY @dimensionItem1-l1scale;
+        }
+        to {
+          transform: @dimensionItem0Transform;
+        }
+      }
+    }
+    .alm-box-dimensionItem1 {
+      animation: myAnimation0-1 2s linear forwards;
+      @keyframes myAnimation0-1 {
+        from {
+          transform: @dimensionItem0Transform;
+        }
+        to {
+          transform: @dimensionItem1TranslateXY @dimensionItem1-l1scale;
+        }
+      }
+    }
+    .alm-box-dimensionItemL1 {
+      animation: myAnimation14-15 2s linear forwards;
+      @keyframes myAnimation14-15 {
+        from {
+          transform: @dimensionItemL2TranslateXY @dimensionItem2-l2scale;
+        }
+        to {
+          transform: @dimensionItemL1TranslateXY @dimensionItem1-l1scale;
+        }
+      }
+    }
+    .alm-box-dimensionItem2 {
+      animation: myAnimation1-2 2s linear forwards;
+      @keyframes myAnimation1-2 {
+        from {
+          transform: @dimensionItem1TranslateXY @dimensionItem1-l1scale;
+        }
+        to {
+          transform: @dimensionItem2TranslateXY @dimensionItem2-l2scale;
+        }
+      }
+    }
+    .alm-box-dimensionItemL2 {
+      animation: myAnimation13-14 2s linear forwards;
+      @keyframes myAnimation13-14 {
+        from {
+          transform: @dimensionItemL3TranslateXY @dimensionItem3-l3scale;
+        }
+        to {
+          transform: @dimensionItemL2TranslateXY @dimensionItem2-l2scale;
+        }
+      }
+    }
+    .alm-box-dimensionItem3 {
+      animation: myAnimation2-3 2s linear forwards;
+      @keyframes myAnimation2-3 {
+        from {
+          transform: @dimensionItem2TranslateXY @dimensionItem2-l2scale;
+        }
+        to {
+          transform: @dimensionItem3TranslateXY @dimensionItem3-l3scale;
+        }
+      }
+    }
+    .alm-box-dimensionItemL3 {
+      animation: myAnimation12-13 2s linear forwards;
+      @keyframes myAnimation12-13 {
+        from {
+          transform: @dimensionItemL4TranslateXY;
+          opacity: 0;
+        }
+        to {
+          transform: @dimensionItemL3TranslateXY @dimensionItem3-l3scale;
+          opacity: 1;
+        }
+      }
+    }
+    .alm-box-dimensionItem4 {
+      animation: myAnimation3-4 2s linear forwards;
+      @keyframes myAnimation3-4 {
+        from {
+          transform: @dimensionItem3TranslateXY @dimensionItem3-l3scale;
+          opacity: 1;
+        }
+        to {
+          transform: @dimensionItem4TranslateXY;
+          opacity: 0;
+        }
+      }
+    }
+    .alm-box-dimensionItemOther {
+      opacity: 0;
+    }
+  }
+}

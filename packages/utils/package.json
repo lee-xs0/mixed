@@ -1,0 +1,10 @@
+{
+  "name": "@al-mixed/utils",
+  "version": "0.0.1",
+  "description": "al-mixed 工具方法",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "types": "lib/index.d.ts",
+  "author": "ATW-Lee <1596064580@qq.com>",
+  "license": "MIT"
+}

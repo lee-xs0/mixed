@@ -1,0 +1,11 @@
+{
+  "name": "@al-mixed/box",
+  "author": "ATW-Lee <1596064580@qq.com>",
+  "version": "0.0.1",
+  "description": "al-mixed 多种box盒子",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "types": "lib/index.d.ts",
+  "license": "MIT"
+
+}
