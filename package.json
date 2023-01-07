@@ -12,7 +12,7 @@
     "build": "father-build"
   },
   "dependencies": {
-    "@al-mixed/box": "workspace:*"
+    "@al-mixed/box": "*"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.3.0",

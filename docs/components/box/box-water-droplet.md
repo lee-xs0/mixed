@@ -1,10 +1,7 @@
 ---
-title: 水滴
+title: 水滴盒子
 order: 0
 toc: content
-nav:
-  link: /resources
-group: Box
 ---
 
 # 水滴盒子
@@ -14,7 +11,7 @@ group: Box
 ## 代码演示
 
 
-<code src="../../demo/box/water-droplet/default.tsx">a</code>
+<!-- <code src="../../demo/box/water-droplet/default.tsx"></code> -->
 
 ## API
 

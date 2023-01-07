@@ -1,9 +1,6 @@
 ---
 title: 绕圆轮播
 toc: content
-group:
-  title: Box
-  order: -1
 ---
 
 # 绕圆轮播
@@ -12,7 +9,7 @@ group:
 
 ## 代码演示
 
-<code src="../../demo/box/around-circle-loop" title='基础使用'></code>
+<!-- <code src="../../demo/box/around-circle-loop" title='基础使用'></code> -->
 
 ## API
 

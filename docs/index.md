@@ -1,7 +1,6 @@
 ---
 title: AL-Mixed - 乱七八糟的前端组件
 order: 10
-sidebar: false
 hero:
   title: AL-Mixed
   desc: 乱七八糟的前端组件，总有一款适合你！

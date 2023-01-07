@@ -20,7 +20,7 @@
   --box-shadow-35: calc(var(--droplet-width) * 35 / 350);
 }
 .alm-box-water-droplet::before,
-::after {
+.alm-box-water-droplet::after {
   content: '';
   position: absolute;
   left: var(--embellishmentL);

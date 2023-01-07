@@ -7,7 +7,7 @@
   "module": "es/index.js",
   "types": "lib/index.d.ts",
   "dependencies": {
-    "@al-mixed/utils": "workspace:*"
+    "@al-mixed/utils": "*"
   },
   "license": "MIT"
 }
