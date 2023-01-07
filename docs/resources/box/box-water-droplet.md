@@ -1,17 +1,21 @@
 ---
-title: 水滴盒子
-order: 0
+title: 水滴
 toc: content
+demo:
+  cols: 2
 ---
 
-# 水滴盒子
+# 水滴
 
-外形像水滴一样的盒子
+外形像水滴一样的容器
 
 ## 代码演示
 
+<code src="../../../demo/box/water-droplet/default.tsx" title='基础使用'></code>
 
-<!-- <code src="../../demo/box/water-droplet/default.tsx"></code> -->
+<code src="../../../demo/box/water-droplet/blue.tsx" title='蓝色的外形'></code> <code src="../../../demo/box/water-droplet/purple.tsx" title='紫色的外形'></code>
+
+
 
 ## API
 

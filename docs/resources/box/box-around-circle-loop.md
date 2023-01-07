@@ -5,11 +5,11 @@ toc: content
 
 # 绕圆轮播
 
-视觉为绕某一圆点轮播的动画效果
+视觉为绕某一圆点轮播的动画效果的盒模型
 
 ## 代码演示
 
-<!-- <code src="../../demo/box/around-circle-loop" title='基础使用'></code> -->
+<code src="../../../demo/box/around-circle-loop" title='基础使用'></code>
 
 ## API
 

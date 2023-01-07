@@ -1,7 +1,6 @@
 .alm-box-water-droplet {
   width: var(--droplet-width);
   height: var(--droplet-height);
-  margin: 100px;
   position: relative;
   overflow: hidden;
   box-shadow: inset var(--box-shadow-20) var(--box-shadow-20) var(--box-shadow-20)
